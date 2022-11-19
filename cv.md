@@ -31,3 +31,12 @@ function nbYear(p0, percent, aug, p) {
   return years;
 };
 ```
+
+## Education
+
+- **University:** BSUIR, electronics engineer
+- **Courses:** HTML Academy
+
+## Languages
+
+- **English:** A1
