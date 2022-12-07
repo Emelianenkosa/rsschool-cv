@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/svg/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="list nav-list">
+                    <li class="nav-item">
+                        <a href="#contacts" class="link nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-myself" class="link nav-link">About myself</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="link nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code-example" class="link nav-link">Code example</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="link nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="link nav-link">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="link nav-link">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <div class="container main-container">
+            
+            <section class="section section-profile" id="profile">
+                <div class="profile-photo">
+                    <img src="./assets/img/photo.jpg" alt="my photo" class="img-photo">
+                </div>
+                <div class="profile-name">
+                    <h1 class="section-title section-title-name">
+                        Sergei Emelianenko
+                    </h1>  
+                    <div class="line-200"></div> 
+                    <p class="subtitle subtitle-name">
+                        Junior front-end developer
+                    </p>
+                </div>
+                
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="list contact-list">
+                    <li class="section-item contact-item">
+                        <p class="text">Location:<span class="opacity-05"> Minsk, Belarus</span></p>
+                    </li>
+                    <li class="section-item contact-item">
+                        <p class="text">Phone:<span class="opacity-05"> +375 447671800</span></p>
+                    </li>
+                    <li class="section-item contact-item">
+                        <p class="text">E-mail:<span class="opacity-05"> emelianenko@tut.by</span></p>
+                    </li>
+                    <li class="section-item contact-item">
+                        <p class="text">GitHub:<span class="opacity-05"> emelianenkosa</span></p>
+                    </li>
+                    <li class="section-item contact-item">
+                        <p class="text">Discord:<span class="opacity-05"> Emelianenkosa</span></p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="about-myself">
+                <h2 class="section-title">About myself</h2>
+                <p class="text">I am 38 years old and I want to learn Front-End</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="list skills-list">
+                    <li class="section-item skills-item">
+                        <p class="text">HTML</p>
+                    </li>
+                    <li class="section-item skills-item">
+                        <p class="text">CSS</p>
+                    </li>
+                    <li class="section-item skills-item">
+                        <p class="text">JavaScript (Fundamentals)</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <pre><code>
+function nbYear(p0, percent, aug, p) {               
+    let years = 0;                                   
+     for (years; p0 &lt; p; years++) {                  
+     p0 += Math.floor(p0*(percent/100)+aug); 
+     }                                               
+     return years;                                   
+   };                                                
+                </code></pre>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="list education-list">
+                    <li class="section-item education-item">
+                        <p class="text">University:<span class="opacity-05"> BSUIR, electronics engineer</span></p>
+                    </li>
+                    <li class="section-item education-item">
+                        <p class="text">Courses:<span class="opacity-05"> HTML Academy</span></p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="list languages-list">
+                    <li class="section-item languages-item">
+                        <p class="text">English:<span class="opacity-05"> A1</span></p>  
+                    </li>
+                </ul>
+                
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="list projects-list">
+                    <li class="section-item projects-item">
+                        <a href="https://emelianenkosa.github.io/rsschool-cv" class="link projects-link">CV</a>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <span class="year">© 2022</span>
+                <a href="https://github.com/Emelianenkosa" class="link link-github">emelianenkosa</a>
+            </div>
+            <div class="footer-content">
+                <a href="https://rs.school/js/" class="link-rsschool">
+                    <img src="./assets/svg/logo-rsschool.svg" alt="logo rsschool" class="img-logo-rsschool">
+                </a>
+            </div> 
+        </div>
+    </footer>
+
+</body>
+</html>

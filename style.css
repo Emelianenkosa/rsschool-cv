@@ -1,0 +1,247 @@
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/fonts/roboto-v30-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/roboto-v30-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('assets/fonts/roboto-v30-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('assets/fonts/roboto-v30-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assets/fonts/roboto-v30-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/roboto-v30-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assets/fonts/roboto-v30-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 100vh;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .opacity-05 {
+    opacity: 0.5;
+  }
+
+  .list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav {
+    background-color: #473239;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .link {
+    text-decoration: none;
+    transition: .5s;
+  }
+  .link:hover {
+    opacity: 0.6;
+  }
+
+  .nav-link {
+    font-size: 17px;
+    line-height: 50px;
+    color: white;
+    padding: 0 20px;
+  }
+ 
+
+
+  .img-photo {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .section-title {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color:rgb(0, 0, 0, 0.5)
+  }
+  .section-title-name {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .line-200 {
+    width: 200px;
+    height: 2px;
+    display: inline-block;
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+  .subtitle-name {
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+  }
+
+  .section {
+    width: 46%;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+  }
+
+  .section-item {
+    position: relative;
+    padding-left: 40px;
+  }
+  .section-item::before {
+    position: absolute;
+    content: "";
+    left: 23px;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+  .section:last-child {  
+    border-bottom: none;
+  }
+
+  .section-profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-bottom: 5px solid  rgb(0, 0, 0, 0.3);
+  }
+
+  .profile-photo {
+    width: 50%;
+    text-align: center;
+  }
+  .profile-name {
+    width: 50%;
+    text-align: center;
+    vertical-align: bottom;
+  }
+
+  .projects-link {
+    color: black;
+  }
+
+
+
+
+  .footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #473239;
+    color: white;
+  }
+
+  .footer-container span {
+    margin-right: 15px;
+  }
+
+  .img-logo-rsschool {
+    width: 100px;
+    padding-right: 0;
+    padding-left: auto;
+  }
+  .link-github {
+    color: white;
+  }
+
+ 
+  @media (max-width: 768px) {
+    .section {
+        width: 100%;
+      }
+      .nav-link {
+        font-size: 12px;
+      }
+      .section:nth-last-child(2) {  
+        border-bottom: 1px solid black;
+      }
+  }
