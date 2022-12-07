@@ -1,7 +1,5 @@
 # Sergei Emelianenko
 
-![photo](/rsschool-cv/photo.jpg)
-
 ## Contacts
 
 - **Location:** Minsk, Belarus
